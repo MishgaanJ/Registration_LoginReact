@@ -1,0 +1,178 @@
+.login-form{
+    background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-main{
+    border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:500px;
+    max-height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 480px;
+}
+
+.login-main h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(70, 70, 240);
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.login-main input{
+    width: 300px;
+    padding: 7px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #4F56F6;
+    outline: none;
+}
+
+input::placeholder {
+    color: #4F56F6; 
+    opacity: 1; 
+}
+
+.btn{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: #8B54FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+span{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    color: #4F56F6;
+    /* border-radius: 30px; */
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.register{
+    font-weight: 500;
+    cursor: pointer;
+    color: #4F56F6;
+
+}
+
+.login-main h5{
+    text-align: end;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    color: #4F56F6;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* @media screen and (max-width: 600px) {
+    .registration-form{
+        background-color: #EBEBEB;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .registration-main{
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width:300px;
+        max-height: 500px;
+        background-color: white;
+        border-radius: 20px;
+        width: 300px;
+        height: 480px;
+    }
+    
+    .registration-main h1{
+        font-size: 2rem;
+        text-align: center;
+        color: rgb(70, 70, 240);
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .registration-main input{
+        max-width:230px;
+        padding: 7px;
+        margin: 10px 30px;
+        border-radius: 10px;
+        border: 2px solid #4F56F6;
+    }
+    
+    input::placeholder {
+        color: #4F56F6; 
+        opacity: 1; 
+    }
+    
+    .btn{
+        max-width: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background-color: #8B54FF;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .btn-2{
+        max-width:260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        background-color: #4F56F6;
+        border: none;
+        color: white;
+        border-radius: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    
+    
+} */
+
